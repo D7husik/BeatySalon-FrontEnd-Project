@@ -457,11 +457,16 @@ const HomePage = ({ onNavigate }) => {
                     </div>
 
                     <div className="contact-section__map">
-                        <div className="map-placeholder">
-                            <MapPin className="map-placeholder__icon" />
-                            <p>Interactive Map</p>
-                            <span>123 Beauty Boulevard, New York</span>
-                        </div>
+                        <iframe
+                            title="Suulu Salon Location"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.5567092886!2d74.5869!3d42.8746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7c0df5e5e5d%3A0x7a6d5b5c5b5c5b5c!2sBishkek%2C%20Kyrgyzstan!5e0!3m2!1sen!2sus!4v1703545200000"
+                            width="100%"
+                            height="400"
+                            style={{ border: 0, borderRadius: '16px' }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
                     </div>
                 </div>
             </section>
